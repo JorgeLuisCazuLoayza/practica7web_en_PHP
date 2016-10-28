@@ -1,0 +1,79 @@
+/**************estilos generales***********/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em;
+	font-family: Helvetica, Arial;
+}
+/**************estilos estilos cabecera***********/
+#cabecera{
+	border-bottom: 13px solid blue;
+	background: aqua;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+	-wekit -box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+	-moz -box-shadow:  0 5px 8px rgba(0, 0, 0, 0.15);
+}
+header{
+	margin: 0 5%;
+}
+header h1 {
+	color: blue;
+}
+/**************estilos de lista de opciones***********/
+nav ul{
+	margin: 5;
+	padding: 0;
+	width: 100%;
+	height: 40px;
+	margin: auto;
+	margin: 5;
+	
+}
+nav li{
+	list-style-type: none;
+	float: left;
+	display: block;
+	width: 15%;
+	line-height: 30px;
+	margin: 0 1%;
+}
+nav li a{
+	text-decoration: none;
+	color: #fff;
+	height: 100%;
+	display: block;
+	text-align: center ;
+}
+nav li a:hover{background-color: blue;}
+nav li a:active{background-color: #fff;}
+nav li a:link{background-color: purple;}
+
+/**************estilos contenido**********/
+#contenido{
+	margin: 0 10%;
+}
+section{
+	margin: 10px 0;
+}
+#contenido article{
+	margin: 10px;
+	padding:  10px;
+	width: 20%;
+	height: 50px;
+	float: left;
+}
+/**************estilos pie***********/
+#pie{
+	padding: 1%;
+	background: aqua;
+	border-top: 13px solid blue;
+	clear: both;
+}
+footer{
+	margin: 0 10%;
+	color: blue;
+}
